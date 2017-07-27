@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">My Surgery</string>
+    <string name="google_maps_key">AIzaSyDKGGjfF2aPw0bhPGmDvyGwxQUNuYlpIT4</string>
+<!--<string name="google_maps_key">AIzaSyArvhqkgDWsYjzWPPSwkOkehp44bsY0pVA</string>-->
+    <string name="text_gettingthere">. The Main Entrance with a space for patient drop off is via 15-17 Madigan Boulevard, Mount Warrigal. \n. Public buses stop just outside Madigan Boulevard or Lake Entrance Road, Mount Warrigal. There is a short walk to the hospital.</string>
+    <string name="text_togo">. The Day Surgery Unit and Operating Threatres are through the Main Entrance. \n. Go to the Surgical Bookings Admissions Office before surgery.</string>
+    <string name="text_parking">. You can access the hospital car park via Madigan Boulevard, Mout Warrigal. \n. There is no street parking near the hospital.</string>
+
+    <string-array name="arr_questions">
+        <item>What are you having surgery?</item>
+        <item>What type of surgery are you having?</item>
+        <item>Do you know what your procedure is called?</item>
+        <item>Do you know the date of your surgery?</item>
+    </string-array>
+
+    <string-array name="arr_answer">
+        <item>Wollongong Hospital</item>
+        <item>Shellharbour Hospital</item>
+        <item>Shoalhaven Hospital</item>
+    </string-array>
+    <string-array name="arr_answer1">
+        <item>Bladder and kidneys</item>
+        <item>Bones and joints</item>
+        <item>Ear, nose and throat</item>
+        <item>Bowel and stomach</item>
+        <item>Arteries and veins</item>
+        <item>Women\'s gynaecology</item>
+        <item>Brain, spine and nerves</item>
+        <item>Bone marrow collection</item>
+        <item>Breast</item>
+        <item>Skin and plastics</item>
+        <item>Neck</item>
+        <item>Teeth and dental</item>
+    </string-array>
+
+    <string-array name="arr_answer2">
+        <item>Dilatation and curettage of uterus</item>
+        <item>Termination of pregnancy</item>
+        <item>Hysteroscopy</item>
+        <item>Cone biopsy of cervix</item>
+        <item>Vaginal repair</item>
+        <item>Hysterectomy</item>
+        <item>Salpingo-oophorectomy</item>
+    </string-array>
+    <string-array name="arr_answer3">
+        <item>Yes, I have an exact date</item>
+        <item>No, but I have an estimated waiting time</item>
+        <item>I don\'t know anything about the date for my surgery</item>
+    </string-array>
+    <string-array name="arr_itemSpinner">
+        <item>Less than one month</item>
+        <item>1-3 months</item>
+        <item>3-6 months</item>
+        <item>6-12 months</item>
+    </string-array>
+    <string-array name="arr_content_video">
+        <item>Every week, thousands of Australians have surgery, and you\'re one of them, which means you need to be prepared.
+
+\nThe My Surgery Journey app provides information about the time before surgery. You should use it together with your family and talk about the information. The app will help you get ready for surgery, remind you of important dates and help you get to the hospital.
+
+\nAsk your local doctor or surgeon if you have any questions.
+
+\nIf you\'re late to hospital, miss your appointment, or haven\'t followed your doctor\'s instructions your surgery may be delayed or even cancelled.
+
+\nWhen surgery is cancelled it\'s not possible to simply bring in the next patient, as the theatre has been set up just for you.
+
+\nSo, make the most of your My Surgery Journey app to ensure you\'re ready for surgery.
+</item>
+        <item>Surgery waiting times can be long. It may take days, weeks or even months from the time you first visit your GP to when you have your surgery.
+
+\nMany things can happen to change your waiting time so the hospital will only give you an estimated waiting time until they really know when to contact you stating the exact time of your surgery.
+
+\nIt is important to let the Hospital know if you no longer require surgery or have already had it elsewhere.
+</item>
+        <item>Any medicines you\'re taking could react with the anaesthetic or other medicines you may receive during surgery. It\'s important to stop taking some medicines several weeks before surgery. Your doctor will tell you exactly what medicines to stop and when.
+
+\nRemember, medicine is a science, not guesswork.
+
+\nIf you are not sure about something, simply call your doctor.
+
+\nIt\'s even important to tell your doctor if you are taking natural remedies such as fish oil, and as good as the human memory can be, it\'s far from perfect, so be sure to mark your medicine stop times in a diary.
+
+\nIf you take any blood thinning medicines you must get special instructions from your doctor or the hospital.
+</item>
+        <item>For most surgery you\'ll require medicine to go to sleep. When you\'re asleep your throat muscles relax and any food in your stomach can escape and get into your lungs.
+
+\nThat\'s why, it\'s important to stop eating anything at least 6 hours
+before your surgery.
+
+\nHospital staff will contact you in the days before your surgery with exact instructions.
+
+\nFasting means going without all food and liquid. Sometimes in hospital we call this \"Nil By Mouth\".  Fasting is needed before general anaesthesia or sedation.
+\n•	You can have solid food until 6 hours before surgery - this should only be a light meal.
+\n•	Do not chew gum or lollies- these count as food because they cause the stomach to produce extra acid.
+\n•	Adult patients can have clear fluids until 2 hours before surgery. This should be no more than 2 cups or 400mls.
+\n•	Ask when you should fast from.
+</item>
+        <item>The whole point of surgery is to help you get well. So it makes sense that you might not feel like turning somersaults in the weeks before your procedure. Nevertheless, do try to do some light exercise every day. It\'ll help you recover faster after surgery.
+
+\nIt\'s also important to be clean. Having a bath or shower before coming in reduces the risk of infection during your procedure.
+
+\nIf you are unwell within 3 days before your surgery you will need to call the hospital or contact your local doctor for advice. If you are too unwell for surgery, it may be postponed until you are feeling better and it is safer for you to have an anaesthetic.
+
+\nIf you have any of the following please call us:
+\n•	Temperature or fever- feeling hot or cold
+\n•	Sore throat
+\n•	Rash or swelling
+\n•	Feel unwell
+\n•	A cut, break or tear in your skin
+\n•	Any infected wounds
+\n•	Diarrhoea or vomiting
+\n•	A recent unplanned visit to the Emergency Department or local doctor
+</item>
+        <item>If you are cleared to go home, you must have someone stay with you the night after your surgery.
+\n\If you have had a General Anaesthetic or sedation you will need to have a responsible adult take you home and stay overnight with you. This is for your own safety as you may be lightheaded and drowsy. Your ability to do tasks may be affected. A small amount of anaesthetic may still be in your body.
+\nYou must not drive home after surgery. It is not safe.
+\nIf you don\'t have a family member or friend able to pick you up and stay with you please tell the hospital staff. We want you to have your surgery but we also want you to be safe afterwards.
+</item>
+        <item>Almost everything you need for your hospital stay will be supplied for you. If you are staying overnight, all you need to bring is a single small bag with toiletries, the medicine you are taking and pyjamas.
+
+\nBring to hospital:
+\n•	Two (2) pairs of clean pyjamas/nighties (labelled with your name).
+\n•	Dressing gown and slippers (non-slip sole)
+\n•	Toiletries (soap, toothpaste, toothbrush, hairbrush/comb, razor, tissues)
+\n•	Small amount of money under $10 (for phone or newspaper)
+\n•	Current medicines (these will be returned to you when you go home) and a list of ALL of your medicines
+\n•	Comfortable clean day clothing
+\n•	Glasses, hearing aids and non-electric walking aids (labelled with your name)
+\n•	Any letters from your doctors
+\n•	All relevant x-rays, scans and blood test results
+\n•	Medicare card and (if applicable) private health insurance fund card/book, veterans affairs repat card, details of workers compensation, public liability or third party case
+
+\nTheft does occur in hospitals.
+
+\nDo NOT bring to hospital:
+\n•	Valuables (any jewellery or large amounts of money over $10)
+\n•	Radios without headphones
+\n•	Mobile phones (they can get lost or become a target for thieves)
+\n•	Electrical appliances (including electric shavers)
+\n•	Pot plants or flowers
+\n•	Large bags or excessive clothing- bring only the bare minimum
+\n•	Alcohol or illegal drugs
+\n•	Video games
+</item>
+        <item>We understand that sometimes people run late, but running too late could mean that your surgery is postponed.
+
+\nHospitals are complex and busy places. Sometimes just finding the right entrance can be tricky.
+
+\nThe hospital will tell you which entrance to use and where it is.
+
+\nHospital car parks are busy too. So leave plenty of time to drive to hospital and some extra time to find a park.
+
+\nIf you\'re unsure, consider taking a taxi or getting a lift.
+
+\nWollongong Hospital
+
+\nThe Main Entrance with a space for patient drop off is via Loftus Street, Wollongong.
+
+\nThere are two ways to get into the car park off Dudley Street.
+
+\nThere are also two ways to get into the car park off New Dapto Road.
+
+\nThere is a fee to park with the price displayed at the entrance. Disabled and concession parking up to 3 hours is free - check at the entry and at the ticket machine on Level 4 for more information.
+
+\nVery little free parking is available on the streets around Wollongong hospital. Please check the signposts as there are strict time limits.
+</item>
+        <item>We understand that sometimes people run late, but running too late could mean that your surgery is postponed.
+
+\nHospitals are complex and busy places. Sometimes just finding the right entrance can be tricky.
+
+\nThe hospital will tell you which entrance to use and where it is.
+
+\nHospital car parks are busy too. So leave plenty of time to drive to hospital and some extra time to find a park.
+
+\nIf you\'re unsure, consider taking a taxi or getting a lift.
+
+\nShellharbour Hospital
+
+\nThe Main Entrance with a space for patient drop off is via 15-17 Madigan Boulevard, Mount Warrigal.
+
+\nYou can access the hospital car park via Madigan Boulevard, Mount Warrigal.
+
+\nDisabled parking is available.
+
+\nSome parking is available on the streets around the hospital. Please check the signposts as there may be time limits.
+</item>
+        <item>We understand that sometimes people run late, but running too late could mean that your surgery is postponed.
+
+\nHospitals are complex and busy places. Sometimes just finding the right entrance can be tricky.
+
+\nThe hospital will tell you which entrance to use and where it is.
+
+\nHospital car parks are busy too. So leave plenty of time to drive to hospital and some extra time to find a park.
+
+\nIf you\'re unsure, consider taking a taxi or getting a lift.
+
+\nShoalhaven Hospital
+
+\nThe Main Entrance with a space for patient drop off is via Scenic Drive, Nowra.
+
+\nYou can access the hospital car park via Scenic Drive.
+
+\nDisabled parking is available.
+
+\nSome parking is available on the streets around the hospital. Please check the signposts as there are time limits.
+</item>
+    </string-array>
+</resources>

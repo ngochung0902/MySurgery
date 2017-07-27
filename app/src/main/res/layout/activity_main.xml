@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        >
+        <ImageView
+            android:id="@+id/ivTopQuset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_drive"
+            />
+
+        <TextView
+            android:id="@+id/lbQuestion"
+            android:text="It would take you 0 minutes to drive to Shellbarbour Hospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font20"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/margin5"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btnNext"
+            android:background="@drawable/btn_next"
+            android:layout_marginBottom="@dimen/margin10"
+            android:layout_marginRight="@dimen/margin10"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/btnPrevious"
+            android:background="@drawable/btn_back"
+            android:layout_marginBottom="@dimen/margin10"
+            android:layout_marginLeft="@dimen/margin10"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_above="@+id/btnNext"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/margin10">
+
+            <ListView
+                android:id="@+id/listAnswers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin10"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_light"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin20">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/height_tab"
+                    android:id="@+id/spnTime"
+                    android:layout_marginLeft="@dimen/margin10"
+                    android:padding="@dimen/margin5"
+                    android:layout_marginRight="@dimen/margin10"
+                    android:background="@drawable/bg_selection2"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:text="Date picker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lbDate"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textSize="@dimen/font18"
+                    android:padding="@dimen/margin5"
+                    android:visibility="gone"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

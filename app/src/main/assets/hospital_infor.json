@@ -1,0 +1,873 @@
+[
+  {
+    "_id": 1,
+    "hospital": "Wollongong Hospital",
+    "latitude": "-34.42476",
+    "longitude": "150.88353",
+    "contacts": "<b>Getting There</b><br><br>- The Main Entrance with a space for patient drop off is via Loftus Street, Wollongong.<br>- Public buses stop just outside our Crown Street entrance.<br><br><b>Where to go:</b><br><br>- The Day Surgery Unit and Operating Theatres are on Level 2 in the A Block, near the Loftus Street Main Entrance.<br>- There is a lift<br><br><b>Parking</b><br><br>- There are two ways to get into the car park off Dudley Street.<br>- There are also two ways to get into the car park off New Dapto Road.<br>- There is a fee to park with the price displayed at the entrance. Disabled and concession parking up to 3 hours is free - check at the entry and at the ticket machine for more information.<br>- Very little free parking is available on the streets around Wollongong hospital. Please check the signposts as there are strict time limits.<br>",
+    "phone_number1": "4222 5000",
+    "phone_number2": "4255 1290",
+    "phone_number3": "4255 1210",
+    "appointment": ["Yes, I have an exact date","No, but I have an estimated waiting time","I don't know anything about the date for my surgery"],
+    "type": [
+      {
+        "type_name": "I don't know",
+        "days_type": "0",
+        "options": [
+          {
+            "content": "",
+            "url_option": ""
+          }
+        ]
+      },
+      {
+        "type_name": "Bladder and kidneys",
+        "days_type": "28",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Transperineal biopsy of prostate",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/prostate-cancer-testing"
+          },
+          {
+            "content": "Check cystoscopy (male)",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/flexible-cystoscopy-male"
+          },
+          {
+            "content": "Check cystoscopy (female)",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/flexible-cystoscopy-female"
+          },
+          {
+            "content": "Trans rectal ultrasound",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/ultrasound-scan"
+          },
+          {
+            "content": "Circumcision",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/circumcision"
+          },
+          {
+            "content": "Nephrectomy laparoscopic",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/kidney-cancer"
+          },
+          {
+            "content": "Orchidopexy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/orchidopexy-for-a-palpable-testicle-child"
+          },
+          {
+            "content": "Ureteroscopy and laser lithoplasty",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/kidney-stones"
+          },
+          {
+            "content": "Cystoscopy and transurethral resection of bladder tumour",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bladder-cancer"
+          },
+          {
+            "content": "Nephrectomy radical",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/kidney-cancer"
+          },
+          {
+            "content": "Prostatectomy radical",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/prostatectomy-for-cancer"
+          }
+        ]
+      },
+      {
+        "type_name": "Bones and joints",
+        "days_type": "232",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Replacement of hip",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/total-hip-replacement"
+          },
+          {
+            "content": "Replacement of knee, total",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/total-knee-replacement"
+          },
+          {
+            "content": "Hemi arthroplasty of shoulder",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/total-shoulder-replacement"
+          },
+          {
+            "content": "Removal of screws",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/removing-metalware"
+          },
+          {
+            "content": "Open reduction internal fixation of wrist fracture",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bone-fractures"
+          },
+          {
+            "content": "Arthroscopy of knee",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/arthroscopy-of-the-knee"
+          }
+        ]
+      },
+      {
+        "type_name": "Ear, nose and throat",
+        "days_type": "276",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Tonsillectomy (child)",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/tonsillectomy-child"
+          },
+          {
+            "content": "Tonsillectomy (adult)",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/tonsillectomy-adult"
+          },
+          {
+            "content": "Adenoidectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/adenoidectomy-child"
+          },
+          {
+            "content": "Myringotomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/adenoidectomy-child"
+          },
+          {
+            "content": "Thyroidectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/grommet-insertion-child"
+          },
+          {
+            "content": "Septoplasty",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/thyroidectomy-for-nodule"
+          },
+          {
+            "content": "Orchidopexy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/prostate-cancer-testing"
+          }
+        ]
+      },
+      {
+        "type_name": "Bowel and stomach",
+        "days_type": "62",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Repair of inguinal hernia",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/laparoscopic-inguinal-hernia-repair-tep"
+          },
+          {
+            "content": "Anterior resection of bowel",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/flexible-cystoscopy-https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bowel-cancer"
+          },
+          {
+            "content": "Sigmoidoscopy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/flexible-sigmoidoscopy"
+          },
+          {
+            "content": "Whipples procedure",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/pancreatic-cancer"
+          },
+          {
+            "content": "Segmental liver resection",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/liver-cancer"
+          },
+          {
+            "content": "Cholecystectomy laparoscopic",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/laparoscopic-cholecystectomy"
+          }
+        ]
+      },
+      {
+        "type_name": "Arteries and veins",
+        "days_type": "20",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Balloon to arteriovenous fistula",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/kidneys-dialysis-and-transplant"
+          },
+          {
+            "content": "Insertion of peritoneal dialysis catheter",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/kidneys-dialysis-and-transplant"
+          },
+          {
+            "content": "Angioplasty",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/peripheral-vascular-disease"
+          },
+          {
+            "content": "Aortic endograft",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/aneurysm"
+          }
+        ]
+      },
+      {
+        "type_name": "Women's gynaecology",
+        "days_type": "65",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Dilatation and curettage of uterus",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/dilatation-and-curettage-dc"
+          },
+          {
+            "content": "Termination of pregnancy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/termination-of-pregnancy"
+          },
+          {
+            "content": "Hysteroscopy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/Hysteroscopy"
+          },
+          {
+            "content": "Cone biopsy of cervix",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/cervical-cancer"
+          },
+          {
+            "content": "Vaginal repair",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/anterior-repair"
+          },
+          {
+            "content": "Hysterectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/hysterectomy"
+          },
+          {
+            "content": "Salpingo-oophorectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/fallopian-tube-cancer"
+          }
+        ]
+      },
+      {
+        "type_name": "Brain, spine and nerves",
+        "days_type": "35",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Craniotomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/craniotomy"
+          },
+          {
+            "content": "Microdiscectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/lumbar-microdiscectomy"
+          },
+          {
+            "content": "Laminectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/laminectomy"
+          },
+          {
+            "content": "Decompression of lumbar spine",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/lumbar-spinal-decompression"
+          }
+        ]
+      },
+      {
+        "type_name": "Bone marrow collection",
+        "days_type": "30",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Biopsy of bone marrow",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bone-marrow"
+          },
+          {
+            "content": "Aspiration of bone marrow",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bone-marrow"
+          }
+        ]
+      },
+      {
+        "type_name": "Breast",
+        "days_type": "30",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Reduction of breast tissue",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-reduction-for-women"
+          },
+          {
+            "content": "Wide local excision of breast and sentinel node  biopsy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-cancer"
+          },
+          {
+            "content": "Axillary dissection of breast",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-cancer"
+          },
+          {
+            "content": "Reconstruction of breast tissue",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-reconstruction-and-mastectomy"
+          },
+          {
+            "content": "Mastectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-reconstruction-and-mastectomy"
+          },
+          {
+            "content": "Removal of breast implant",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-implants-and-your-health"
+          }
+        ]
+      },
+      {
+        "type_name": "Skin and plastics",
+        "days_type": "24",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Excision of basal cell carcinoma of face",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/skin-cancer"
+          },
+          {
+            "content": "Reduction of breast tissue",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-reduction-for-women"
+          },
+          {
+            "content": "Debridement of wound",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/cellulitis"
+          },
+          {
+            "content": "Excision of lesion",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/removing-benign-skin-lesions"
+          }
+        ]
+      },
+      {
+        "type_name": "Neck",
+        "days_type": "362",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Dissection of neck",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/throat-cancer"
+          },
+          {
+            "content": "Excision of lymph node neck",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/lymphatic-system"
+          },
+          {
+            "content": "Flap repair",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/throat-cancer"
+          }
+        ]
+      },
+      {
+        "type_name": "Teeth and dental",
+        "days_type": "300",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Extraction of teeth",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/dental-treatment"
+          },
+          {
+            "content": "Examination under anaesthetic of teeth",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/dental-treatment"
+          },
+          {
+            "content": "General Dental Treatment",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/dental-treatment"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "hospital": "Shellharbour Hospital",
+    "latitude": "-34.5590196",
+    "longitude": "150.8413165",
+    "contacts": "<b>Getting There</b><br><br>- The Main Entrance with a space for patient drop off is via 15-17 Madigan Boulevard, Mount Warrigal.<br>- Public buses stop just outside Madigan Boulevard or Lake Entrance Road, Mount Warrigal. There is a short walk to the hospital. <br><br><b>Where to go:</b><br><br>- The Day Surgery Unit and Operating Theatres are through the Main Entrance.<br>- Go to the Surgical Bookings Admissions Office before surgery.<br><br><b>Parking</b><br><br>- You can access the hospital car park via Madigan Boulevard, Mount Warrigal.<br>- There is no street parking near the hospital.<br>",
+    "phone_number1": "4295 2500",
+    "phone_number2": "",
+    "phone_number3": "",
+    "appointment": ["Yes, I have an exact date","No, but I have an estimated waiting time","I don't know anything about the date for my surgery"],
+    "type": [
+      {
+        "type_name": "I don't know",
+        "days_type": "0",
+        "options": [
+          {
+            "content": "",
+            "url_option": ""
+          }
+        ]
+      },
+      {
+        "type_name": "Bones and joints",
+        "days_type": "219",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Replacement of hip",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/total-hip-replacement"
+          },
+          {
+            "content": "Replacement of knee, total",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/total-knee-replacement"
+          },
+          {
+            "content": "Hemi arthroplasty of shoulder",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/total-shoulder-replacement"
+          },
+          {
+            "content": "Removal of screws",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/removing-metalware"
+          },
+          {
+            "content": "Open reduction internal fixation of wrist fracture",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bone-fractures"
+          },
+          {
+            "content": "Arthroscopy of knee",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/arthroscopy-of-the-knee"
+          }
+        ]
+      },
+      {
+        "type_name": "Bowel and stomach",
+        "days_type": "67",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Repair of inguinal hernia",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/laparoscopic-inguinal-hernia-repair-tep"
+          },
+          {
+            "content": "Anterior resection of bowel",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/flexible-cystoscopy-https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bowel-cancer"
+          },
+          {
+            "content": "Sigmoidoscopy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/flexible-sigmoidoscopy"
+          },
+          {
+            "content": "Whipples procedure",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/pancreatic-cancer"
+          },
+          {
+            "content": "Segmental liver resection",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/liver-cancer"
+          },
+          {
+            "content": "Cholecystectomy laparoscopic",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/laparoscopic-cholecystectomy"
+          }
+        ]
+      },
+      {
+        "type_name": "Women's gynaecology",
+        "days_type": "67",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Dilatation and curettage of uterus",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/dilatation-and-curettage-dc"
+          },
+          {
+            "content": "Termination of pregnancy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/termination-of-pregnancy"
+          },
+          {
+            "content": "Hysteroscopy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/Hysteroscopy"
+          },
+          {
+            "content": "Cone biopsy of cervix",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/cervical-cancer"
+          },
+          {
+            "content": "Vaginal repair",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/anterior-repair"
+          },
+          {
+            "content": "Hysterectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/hysterectomy"
+          },
+          {
+            "content": "Salpingo-oophorectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/fallopian-tube-cancer"
+          }
+        ]
+      },
+      {
+        "type_name": "Skin and plastics",
+        "days_type": "46",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Excision of basal cell carcinoma of face",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/skin-cancer"
+          },
+          {
+            "content": "Reduction of breast tissue",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-reduction-for-women"
+          },
+          {
+            "content": "Debridement of wound",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/cellulitis"
+          },
+          {
+            "content": "Excision of lesion",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/removing-benign-skin-lesions"
+          }
+        ]
+      },
+      {
+        "type_name": "Teeth and dental",
+        "days_type": "300",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Extraction of teeth",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/dental-treatment"
+          },
+          {
+            "content": "Examination under anaesthetic of teeth",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/dental-treatment"
+          },
+          {
+            "content": "General Dental Treatment",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/dental-treatment"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "hospital": "Shoalhaven Hospital",
+    "latitude": "-34.8687776",
+    "longitude": "150.5953049",
+    "contacts": "<b>Getting There</b><br><br>- The Main Entrance with a space for patient drop off is via Scenic Drive, Nowra.<br>- Public buses stop just outside our Scenic Drive entrance. <br><br><b>Where to go:</b><br><br>- The Day Surgery Unit and Operating Theatres are near the Main Foyer on the Ground Floor.<br><br><b>Parking</b><br><br>- You can access the hospital car park via Scenic Drive.<br>- Some parking is available on the streets around the hospital. Please check the signposts as there are time limits.<br>",
+    "phone_number1": "4421 3111",
+    "phone_number2": "4423 9717",
+    "phone_number3": "4423 9571",
+    "appointment": ["Yes, I have an exact date","No, but I have an estimated waiting time","I don't know anything about the date for my surgery"],
+    "type": [
+      {
+        "type_name": "I don't know",
+        "days_type": "0",
+        "options": [
+          {
+            "content": "",
+            "url_option": ""
+          }
+        ]
+      },
+      {
+        "type_name": "Bladder and kidneys",
+        "days_type": "19",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Transperineal biopsy of prostate",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/prostate-cancer-testing"
+          },
+          {
+            "content": "Check cystoscopy (male)",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/flexible-cystoscopy-male"
+          },
+          {
+            "content": "Check cystoscopy (female)",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/flexible-cystoscopy-female"
+          },
+          {
+            "content": "Trans rectal ultrasound",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/ultrasound-scan"
+          },
+          {
+            "content": "Circumcision",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/circumcision"
+          },
+          {
+            "content": "Nephrectomy laparoscopic",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/kidney-cancer"
+          },
+          {
+            "content": "Orchidopexy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/orchidopexy-for-a-palpable-testicle-child"
+          },
+          {
+            "content": "Ureteroscopy and laser lithoplasty",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/kidney-stones"
+          },
+          {
+            "content": "Cystoscopy and transurethral resection of bladder tumour",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bladder-cancer"
+          },
+          {
+            "content": "Nephrectomy radical",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/kidney-cancer"
+          },
+          {
+            "content": "Prostatectomy radical",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/prostatectomy-for-cancer"
+          }
+        ]
+      },
+      {
+        "type_name": "Bones and joints",
+        "days_type": "350",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Replacement of hip",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/total-hip-replacement"
+          },
+          {
+            "content": "Replacement of knee, total",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/total-knee-replacement"
+          },
+          {
+            "content": "Hemi arthroplasty of shoulder",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/total-shoulder-replacement"
+          },
+          {
+            "content": "Removal of screws",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/removing-metalware"
+          },
+          {
+            "content": "Open reduction internal fixation of wrist fracture",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bone-fractures"
+          },
+          {
+            "content": "Arthroscopy of knee",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/arthroscopy-of-the-knee"
+          }
+        ]
+      },
+      {
+        "type_name": "Ear, nose and throat",
+        "days_type": "346",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Tonsillectomy (child)",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/tonsillectomy-child"
+          },
+          {
+            "content": "Tonsillectomy (adult)",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/tonsillectomy-adult"
+          },
+          {
+            "content": "Adenoidectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/adenoidectomy-child"
+          },
+          {
+            "content": "Myringotomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/adenoidectomy-child"
+          },
+          {
+            "content": "Thyroidectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/grommet-insertion-child"
+          },
+          {
+            "content": "Septoplasty",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/thyroidectomy-for-nodule"
+          },
+          {
+            "content": "Orchidopexy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/prostate-cancer-testing"
+          }
+        ]
+      },
+      {
+        "type_name": "Bowel and stomach",
+        "days_type": "122",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Repair of inguinal hernia",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/laparoscopic-inguinal-hernia-repair-tep"
+          },
+          {
+            "content": "Anterior resection of bowel",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/flexible-cystoscopy-https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bowel-cancer"
+          },
+          {
+            "content": "Sigmoidoscopy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/flexible-sigmoidoscopy"
+          },
+          {
+            "content": "Whipples procedure",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/pancreatic-cancer"
+          },
+          {
+            "content": "Segmental liver resection",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/liver-cancer"
+          },
+          {
+            "content": "Cholecystectomy laparoscopic",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/laparoscopic-cholecystectomy"
+          }
+        ]
+      },
+      {
+        "type_name": "Women's gynaecology",
+        "days_type": "47",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Dilatation and curettage of uterus",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/dilatation-and-curettage-dc"
+          },
+          {
+            "content": "Termination of pregnancy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/termination-of-pregnancy"
+          },
+          {
+            "content": "Hysteroscopy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/Hysteroscopy"
+          },
+          {
+            "content": "Cone biopsy of cervix",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/cervical-cancer"
+          },
+          {
+            "content": "Vaginal repair",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/anterior-repair"
+          },
+          {
+            "content": "Hysterectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/hysterectomy"
+          },
+          {
+            "content": "Salpingo-oophorectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/fallopian-tube-cancer"
+          }
+        ]
+      },
+      {
+        "type_name": "Bone marrow collection",
+        "days_type": "30",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Biopsy of bone marrow",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bone-marrow"
+          },
+          {
+            "content": "Aspiration of bone marrow",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/bone-marrow"
+          }
+        ]
+      },
+      {
+        "type_name": "Breast",
+        "days_type": "30",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Reduction of breast tissue",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-reduction-for-women"
+          },
+          {
+            "content": "Wide local excision of breast and sentinel node  biopsy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-cancer"
+          },
+          {
+            "content": "Axillary dissection of breast",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-cancer"
+          },
+          {
+            "content": "Reconstruction of breast tissue",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-reconstruction-and-mastectomy"
+          },
+          {
+            "content": "Mastectomy",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-reconstruction-and-mastectomy"
+          },
+          {
+            "content": "Removal of breast implant",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-implants-and-your-health"
+          }
+        ]
+      },
+      {
+        "type_name": "Skin and plastics",
+        "days_type": "83",
+        "options": [
+          {
+            "content": "I don't know",
+            "url_option": ""
+          },
+          {
+            "content": "Excision of basal cell carcinoma of face",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/skin-cancer"
+          },
+          {
+            "content": "Reduction of breast tissue",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/breast-reduction-for-women"
+          },
+          {
+            "content": "Debridement of wound",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/cellulitis"
+          },
+          {
+            "content": "Excision of lesion",
+            "url_option": "https://www.betterhealth.vic.gov.au/health/surgicalbrochures/removing-benign-skin-lesions"
+          }
+        ]
+      }
+    ]
+  }
+]

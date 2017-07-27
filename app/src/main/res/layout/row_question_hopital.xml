@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin5">
+
+        <ImageView
+            android:layout_width="@dimen/margin35"
+            android:layout_height="@dimen/margin35"
+            android:layout_margin="@dimen/margin5"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/ivChecked"
+            android:visibility="visible"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/font16"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin5"
+            android:layout_centerVertical="true"
+            android:id="@+id/tvAnswer"
+            android:layout_toRightOf="@+id/ivChecked" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/font16"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin5"
+            android:id="@+id/tvUrl"
+            android:layout_below="@+id/tvAnswer"
+            android:visibility="gone"/>
+</RelativeLayout>

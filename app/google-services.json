@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "720164043096",
+    "project_id": "test-analytics-3f439"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720164043096:android:645513aecbf91738",
+        "android_client_info": {
+          "package_name": "com.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6DqkDtpQ7I3eLcj2U6X2t5Sig7zz1dHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-88581733-2"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720164043096:android:f6e927a87cbbd57d",
+        "android_client_info": {
+          "package_name": "com.mysurgery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6DqkDtpQ7I3eLcj2U6X2t5Sig7zz1dHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-88581733-4"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
